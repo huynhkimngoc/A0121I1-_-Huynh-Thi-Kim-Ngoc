@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baitap3</title>
+</head>
+<b><h2>Caculator</h2></b>
+<body>
+<form>
+    <input type="number" id="num1" value=""/>
+    <input type="number" id="num2" value=""/>
+</form>
+<br>
+    <button type="button" id="add" onclick="add()">Addition(+)</button>
+    <button type="button" id="sub" onclick="sub()">Subtraction(-)</button>
+    <button type="button" id="multi" onclick="multy()">Multiplication(x)</button>
+    <button type="button" id="div" onclick="div()">Division(/)</button>
+<div id="result"></div>
+<script>
+    function add()
+    {
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var add = document.getElementById("add");
+        var div = document.getElementById("result");
+        var result = parseInt(num1.value, 10)+parseInt(num2.value, 10);
+        div.innerHTML =  "Result value is: "+ result;
+    }
+    function sub()
+    {
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var add = document.getElementById("sub");
+        var div = document.getElementById("result");
+        var result = parseInt(num1.value, 10)-parseInt(num2.value, 10);
+        div.innerHTML =  "Result value is: "+ result;
+    }
+    function multy()
+    {
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var add = document.getElementById("multi");
+        var div = document.getElementById("result");
+        var result = parseInt(num1.value, 10)*parseInt(num2.value, 10);
+        div.innerHTML =  "Result value is: "+ result;
+    }
+    function div()
+    {
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var add = document.getElementById("div");
+        var div = document.getElementById("result");
+        var result = parseInt(num1.value, 10)/parseInt(num2.value, 10);
+        div.innerHTML =  "Result value is: "+ result;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 8</title>
+</head>
+<body>
+<script>
+    //Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử.
+    // Chương trình sắp xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp.
+    let mangso = [];
+    function sapXep() {
+        for(let i =0; i<5; i++){
+        mangso[i] = prompt("nhap so");
+        }
+        alert(mangso);
+        for(let i = 0; i<mangso.length; i++){
+            for(let j =i+1; j<mangso.length; j++){
+                if(mangso[i] < mangso[j]){
+                    let a = mangso[i];
+                    mangso[i] =  mangso[j];
+                    mangso[j] = a;
+                }
+            }
+        }
+        alert(mangso);
+    }
+    sapXep()
+</script>
+</body>
+</html>

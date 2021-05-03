@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<form>
+    <input type="text" id="a" name="a"/>
+    <input type="text" id="b" name="b"/>
+    <button type="button" onclick="ketQua()" ;>Tinh</button>
+    <p id="result"></p>
+</form>
+<script>
+    function ketQua() {
+        let a = document.getElementById('a').value;
+        let b = document.getElementById('b').value;
+        if (a == 0) {
+            if (b == 0) {
+                alert('Phương trình vô số nghiệm');
+            } else {
+                alert('Phương trình vô nghiệm');
+            }
+        } else {
+            let x = (-parseInt(b) / parseInt(a));
+            document.getElementById("result").innerHTML = "Kết quả" + x;
+        }
+
+    }
+</script>
+
+</body>
+</html>

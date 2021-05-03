@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AdamEva</title>
+</head>
+<body>
+<script>
+    class Apple{
+        constructor() {
+            this.weight = 10;
+        }
+        decrease(){
+            this.weight --;
+        }
+        isEmpty(){
+            if (this.weight== 0){
+                return true;
+            }else {
+                return false;
+            }
+        }
+        getWeight(){
+            return this.weight;
+        }
+    }
+    class Human{
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight =weight;
+        }
+        isMale(){
+            if(this.gender=="Male"){
+                return true;
+            }else {
+                return false;
+            }
+        }
+        setGender(gender){
+            this.gender = gender;
+        }
+        checkApple(Apple){
+            if(Apple.isEmpty()){
+                return false;
+            }else {
+                return true;
+            }
+        }
+        eatApple(Apple){
+            this.weight ++;
+            Apple.decrease();
+        }
+        say(String){
+            alert("human say");
+        }
+        getName(){
+            return this.name;
+        }
+        setName(name){
+            this.name = name;
+        }
+        getWeight(){
+            return  this.weight;
+        }
+        setWeight(weight){
+            this.weight =weight
+        }
+    }
+    var a = new Human("Ngoc","Female",45)
+    var b = new Apple();
+    alert("Name:" + a.getName() +"\n"+
+        "Gender:"+ a.gender +"\n"
+        +"Weight: "+a.getWeight()+"\n");
+    alert("Weight tao: "+b.getWeight())
+    a.eatApple(b);
+    alert("Name:" + a.getName() +"\n"+
+        "Gender:"+ a.gender +"\n"
+        +"Weight: "+a.getWeight()+"\n");
+    alert("Weight tao: "+b.getWeight())
+
+</script>
+
+</body>
+</html>

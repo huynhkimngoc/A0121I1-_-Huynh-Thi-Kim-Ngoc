@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yeu cau 2</title>
+</head>
+<body>
+    <script>
+        let name =  "Ngọc";
+        let cmnd = "38957";
+        let birthday = "1/9/1998";
+        let email = "huynhkimngoc198@gmail.com";
+        let address = "Da Nang";
+        let typeService = "Villa";
+        let typeRoom = "Vip";
+        let typeCustomer = "Diamond";
+        let discount = "10";
+        let quanlityIncluded = "1";
+        let rentDays ="7";
+        let totalPay;
+        let choose = parseInt(prompt("1.Hiển thị thông tin khách hàng" + "\n" +
+        "2.Chỉnh sửa thông tin khách hàng" +"\n"+
+        "3.Hiển thị số tiền khách hàng phải chi trả" + "\n"));
+        switch (choose) {
+            case 1: {
+                alert("Tên: " + name + "\n" +
+                    "CMND: " + cmnd + "\n" +
+                    "Ngày sinh: " + birthday + "\n" +
+                    "Email: " + email + "\n" +
+                    "Địa chỉ" + address + "\n" +
+                    "Loại khách hàng: " + typeCustomer + "\n" +
+                    "Loại phòng " + typeRoom + "\n" +
+                    "Loại dịch vụ: " + typeService + "\n" +
+                    "Giảm giá: " + discount + "\n" +
+                    "Số lượng đi kèm: " + quanlityIncluded + "\n" +
+                    "Ngày thuê: " + rentDays + "\n");
+                break;
+            }
+            case 2: {
+                let chooseEdit = parseInt(prompt("1.Tên: " + name + "\n" +
+                    "2.CMND: " + cmnd + "\n" +
+                    "3.Ngày sinh: " + birthday + "\n" +
+                    "4.Email: " + email + "\n" +
+                    "5.Địa chỉ" + address + "\n" +
+                    "6.Loại khách hàng: " + typeCustomer + "\n" +
+                    "8.Loại phòng " + typeRoom + "\n" +
+                    "9.Loại dịch vụ: " + typeService + "\n" +
+                    "10.Giảm giá: " + discount + "\n" +
+                    "11.Số lượng đi kèm: " + quanlityIncluded + "\n" +
+                    "12.Ngày thuê: " + rentDays + "\n"));
+
+                switch (chooseEdit) {
+                    case 1: {
+                        name = prompt("Enter name:");
+                        break;
+                    }
+                    alert("Tên: " +name + "\n"+
+                        "CMND: " + cmnd + "\n"+
+                        "Ngày sinh: " + birthday+ "\n"+
+                        "Email: " + email+ "\n"+
+                        "Địa chỉ" + address + "\n"+
+                        "Loại khách hàng: " + typeCustomer+ "\n"+
+                        "Loại phòng " + typeRoom + "\n"+
+                        "Loại dịch vụ: " + typeService+ "\n"+
+                        "Giảm giá: " +discount+ "\n"+
+                        "Số lượng đi kèm: " +quanlityIncluded+ "\n"+
+                        "Ngày thuê: " + rentDays+ "\n");
+
+                    case 2: {
+                        cmnd = prompt("Enter cmnd");
+                        break;
+                    }
+                    alert("Tên: " +name + "\n"+
+                        "CMND: " + cmnd + "\n"+
+                        "Ngày sinh: " + birthday+ "\n"+
+                        "Email: " + email+ "\n"+
+                        "Địa chỉ" + address + "\n"+
+                         "Loại khách hàng: " + typeCustomer+ "\n"+
+                         "Loại phòng " + typeRoom + "\n"+
+                         "Loại dịch vụ: " + typeService+ "\n"+
+                         "Giảm giá: " +discount+ "\n"+
+                         "Số lượng đi kèm: " +quanlityIncluded+ "\n"+
+                        "Ngày thuê: " + rentDays+ "\n");
+                    case 3: {
+                        birthday = prompt("Enter birthday");
+                        break;
+                    }
+                        alert("Tên: " +name + "\n"+
+                            "CMND: " + cmnd + "\n"+
+                            "Ngày sinh: " + birthday+ "\n"+
+                            "Email: " + email+ "\n"+
+                            "Địa chỉ" + address + "\n"+
+                            "Loại khách hàng: " + typeCustomer+ "\n"+
+                            "Loại phòng " + typeRoom + "\n"+
+                            "Loại dịch vụ: " + typeService+ "\n"+
+                            "Giảm giá: " +discount+ "\n"+
+                            "Số lượng đi kèm: " +quanlityIncluded+ "\n"+
+                            "Ngày thuê: " + rentDays+ "\n");
+
+                    case 4: {
+                        email = prompt("Enter email");
+                        break;
+                    }
+                        alert("Tên: " +name + "\n"+
+                            "CMND: " + cmnd + "\n"+
+                            "Ngày sinh: " + birthday+ "\n"+
+                            "Email: " + email+ "\n"+
+                            "Địa chỉ" + address + "\n"+
+                            "Loại khách hàng: " + typeCustomer+ "\n"+
+                            "Loại phòng " + typeRoom + "\n"+
+                            "Loại dịch vụ: " + typeService+ "\n"+
+                            "Giảm giá: " +discount+ "\n"+
+                            "Số lượng đi kèm: " +quanlityIncluded+ "\n"+
+                            "Ngày thuê: " + rentDays+ "\n");
+                    case 5: {
+                        address = prompt("Enter address");
+                        break;
+                    }
+                        alert("Tên: " +name + "\n"+
+                            "CMND: " + cmnd + "\n"+
+                            "Ngày sinh: " + birthday+ "\n"+
+                            "Email: " + email+ "\n"+
+                            "Địa chỉ" + address + "\n"+
+                            "Loại khách hàng: " + typeCustomer+ "\n"+
+                            "Loại phòng " + typeRoom + "\n"+
+                            "Loại dịch vụ: " + typeService+ "\n"+
+                            "Giảm giá: " +discount+ "\n"+
+                            "Số lượng đi kèm: " +quanlityIncluded+ "\n"+
+                            "Ngày thuê: " + rentDays+ "\n");
+
+                    case 6: {
+                        typeCustomer = prompt("Enter typeCustomer");
+                        break;
+                    }
+                        alert("Tên: " +name + "\n"+
+                            "CMND: " + cmnd + "\n"+
+                            "Ngày sinh: " + birthday+ "\n"+
+                            "Email: " + email+ "\n"+
+                            "Địa chỉ" + address + "\n"+
+                            "Loại khách hàng: " + typeCustomer+ "\n"+
+                            "Loại phòng " + typeRoom + "\n"+
+                            "Loại dịch vụ: " + typeService+ "\n"+
+                            "Giảm giá: " +discount+ "\n"+
+                            "Số lượng đi kèm: " +quanlityIncluded+ "\n"+
+                            "Ngày thuê: " + rentDays+ "\n");
+                    case 7: {
+                        typeRoom = prompt("Enter typeRoom");
+                        break;
+                    }
+                        alert("Tên: " +name + "\n"+
+                            "CMND: " + cmnd + "\n"+
+                            "Ngày sinh: " + birthday+ "\n"+
+                            "Email: " + email+ "\n"+
+                            "Địa chỉ" + address + "\n"+
+                            "Loại khách hàng: " + typeCustomer+ "\n"+
+                            "Loại phòng " + typeRoom + "\n"+
+                            "Loại dịch vụ: " + typeService+ "\n"+
+                            "Giảm giá: " +discount+ "\n"+
+                            "Số lượng đi kèm: " +quanlityIncluded+ "\n"+
+                            "Ngày thuê: " + rentDays+ "\n");
+
+                    case 8: {
+                        typeService = prompt("Enter typeService");
+                        break;
+                    }
+                    default: {
+                        alert("Failed");
+                    }
+                        alert("Tên: " +name + "\n"+
+                            "CMND: " + cmnd + "\n"+
+                            "Ngày sinh: " + birthday+ "\n"+
+                            "Email: " + email+ "\n"+
+                            "Địa chỉ" + address + "\n"+
+                            "Loại khách hàng: " + typeCustomer+ "\n"+
+                            "Loại phòng " + typeRoom + "\n"+
+                            "Loại dịch vụ: " + typeService+ "\n"+
+                            "Giảm giá: " +discount+ "\n"+
+                            "Số lượng đi kèm: " +quanlityIncluded+ "\n"+
+                            "Ngày thuê: " + rentDays+ "\n");
+                }
+            }
+            default:{
+                alert("Sự lựa chọn của bạn không có trong trình đơn");
+            }
+            case 3:{
+                let money =0;
+                if(typeService === "Villa"){
+                    money = 500;
+                }else if(typeService === "house"){
+                    money = 300;
+                }else if (typeService==="room"){
+                    money = 100;
+                }
+                let temp = 0;
+                if(address==="Da Nang"){
+                    temp += 20;
+                }else if(address==="Hue"){
+                    temp+=10;
+                }else if(address ==="Quang Nam") {
+                    temp += 5;
+                }
+                if(rentDays>7){
+                    temp+= 30;
+                }else if(rentDays==5 && rentDays==7){
+                    temp+=20;
+                }else if(rentDays==2 && rentDays ==4){
+                    temp +=10;
+                }
+                if(typeCustomer == "Diamond"){
+                    temp+=15;
+                }else if(typeCustomer=="Platium"){
+                    temp+=10;
+                }else if(typeCustomer=="PlatiumGold"){
+                    temp+=5;
+                }else if(typeCustomer=="Silver"){
+                    temp+=2;
+                }else if(typeCustomer=="Member"){
+                    temp+=0;
+                }
+                alert("Số tiền phải trả: " + (money*rentDays - temp));
+                break;
+            }
+        }
+    </script>
+</body>
+</html>

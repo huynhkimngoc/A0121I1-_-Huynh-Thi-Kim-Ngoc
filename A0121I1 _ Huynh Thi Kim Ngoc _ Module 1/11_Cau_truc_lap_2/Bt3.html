@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let sao = "*";
+    let trong ="&nbsp&nbsp";
+    let result = "";
+    for (let i=0;i<=20;i++){
+        for (let j = 0;j<=7;j++){
+            if (i == 0 || i==20){
+                result+=(sao);
+            }
+            else if (j==0||j==7){
+                result+=(sao);
+            } else {
+                result+=(trong);
+            }
+        }
+        result+=("<br>");
+    }
+    document.write(result);
+</script>
+
+</body>
+</html>

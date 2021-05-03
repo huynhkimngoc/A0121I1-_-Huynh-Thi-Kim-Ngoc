@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 7</title>
+</head>
+<body>
+<script>
+    //Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V.
+    // Chương trình kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc mảng đã cho xoá V khỏi mảng
+    //(Bản chất việc xoá ở đây tức là dịch phần tử ở bên phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng)
+    let mangso = [];
+    temp = true;
+    let mangxoa= [];
+    let v = prompt("Nhap so ban muon xoa");
+    for(let i=0; i<10; i++) {
+        mangso[i] = prompt("Nhập vào mảng số:");
+        if (mangso[i] == v) {
+            temp = false;
+        }
+        if (mangso[i] != v) {
+            mangxoa.push(mangso[i])
+        }
+    }
+        document.write("Mang so la: " + mangso +"<br>");
+        if(temp== false){
+            document.write("Mang so đã xóa la: " + mangxoa +"<br>");
+        }
+</script>
+</body>
+</html>

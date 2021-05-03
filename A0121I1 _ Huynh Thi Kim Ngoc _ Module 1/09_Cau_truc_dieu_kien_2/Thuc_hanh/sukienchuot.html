@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện chuột</title>
+</head>
+<body>
+<form>
+    <img id="myImage" src="https://soccerballworld.com/wp-content/uploads/2020/04/alphabet-word-images-1295331_640.png"
+         style="width: 100px; height: 100px"/>
+    <p>Click button below to move the image to right</p>
+    <input type="button" value="Click Me" />
+</form>
+<script>
+    let imgObject = null;
+    imgObj = document.getElementById('myImage');
+    function init() {
+        imgObj = document.getElementById('myImage');
+        imgObj.style.position = 'relative';
+        imgObj.style.left = '0px';
+    }
+    function moveRight() {
+        imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+    }
+    window.onload = init;
+    <input type="button" value="Click Me" onclick="moveRight();" />
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Viết chương trình khởi tạo/nhập vào 2 mảng số nguyên gồm 10 phần tử, gọi là mảng a và b.
+    // Mảng c là một mảng được khai báo gồm 20 phần tử số nguyên.
+    // Chương trình sẽ lưu các phần tử được nối từ hai mảng b và a vào mảng c. Hiển thị mảng c.
+    
+    let manga =[];
+    let mangb = [];
+    let mangc = [];
+
+    function noiMang(){
+        for(let i=0; i<3;i++){
+            manga[i] = prompt("Nhap mang a:")
+        }
+        alert(manga);
+        for(let i=0; i<3;i++){
+            mangb[i] = prompt("Nhap mamg b:")
+        }
+        alert(mangb)
+        for(let i=0; i<5; i++){
+            mangc[i] = prompt("Nhap mamg c:")
+        }
+        alert(mangc)
+        let d = mangb.concat(mangc,manga);
+        alert(d)
+    }
+    noiMang()
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai2</title>
+</head>
+<body>
+<script>
+    //Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử khác nhau.
+    //Chương trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó.
+    let mangso =[];
+    let max = 0;;
+    let vitri =0
+    for(let i =1; i<10;i++){
+        mangso[i] = prompt("Nhap vao so mang:")
+    }
+    document.write("mang so=  ["+mangso+"]<br>");
+     for(let i=0; i<mangso.length; i++ ){
+         if(max<mangso[i]){
+             max = mangso[i];
+             vitri =i
+         }
+     }document.write("Gia tri lon nhat trong mang la:" + max +  "co vi tri" + vitri);
+</script>
+</body>
+</html>

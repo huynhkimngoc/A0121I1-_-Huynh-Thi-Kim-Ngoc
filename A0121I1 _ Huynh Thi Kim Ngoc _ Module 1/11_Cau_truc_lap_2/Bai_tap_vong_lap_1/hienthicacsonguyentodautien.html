@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 2</title>
+</head>
+<body>
+<script>
+ let num = parseInt(prompt("Nhập vào số nguyên:"));
+ let count = 0;
+ let n =2;
+while(count < num){
+     let isPrime = true;
+     for(let i=2; i<n;i++) {
+         if(n%i==0) {
+             isPrime = false;
+             break;
+         }
+     }
+     if(isPrime) {
+         document.write(n);
+         count++;
+     }
+     n++;
+}
+</script>
+</body>

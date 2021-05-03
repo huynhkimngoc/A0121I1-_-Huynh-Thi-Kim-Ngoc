@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+    //Nếu nhiệt độ nhập vào trên 100, yêu cầu người dùng giảm nhiệt độ. Nếu nhiệt độ dưới 20, yêu cầu người dùng tăng nhiệt độ.
+    let nhietdo = Number(prompt("Nhập nhiệt độ:"));
+    while(nhietdo <20 || nhietdo >100){
+        if(nhietdo<20){
+            alert("Tăng nhiệt");
+            nhietdo = Number(prompt("Nhập nhiệt độ:"));
+        }else if (nhietdo >100){
+            alert("Giảm nhiệt");
+            nhietdo = Number(prompt("Nhập nhiệt độ:"));
+        }
+    }
+
+</script>
+
+</body>
+</html>

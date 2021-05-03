@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+<script>
+    let isPrime = prompt("Nhập vào số:")
+    function isPrime(number) {
+        if(number<=1) return false
+        else if(number == 2 || number == 3) return true
+        else if(number %2 == 0 )return false
+        else {
+            for (i=3; i<number; i+=2){
+                if(number%i == 0){
+                    return false
+                }
+            }
+        }
+
+        return true
+</script>
+
+</body>
+</html>

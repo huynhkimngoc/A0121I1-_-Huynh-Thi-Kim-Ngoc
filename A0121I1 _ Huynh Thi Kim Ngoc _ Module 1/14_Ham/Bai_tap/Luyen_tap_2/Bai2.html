@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai2</title>
+</head>
+<body>
+<script>
+    //Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được
+    function dienTich(r,PI) {
+        let S = PI *r*r;
+        return S;
+    }
+    function chuVi(r,PI) {
+        let C = 2*PI*r;
+        return C;
+    }
+    function bai2() {
+        const PI = 3.14;
+        let r = Number(prompt("Nhập vào bán kính:"))
+        let dientich = dienTich(r,PI)
+        let chuvi = chuVi(r,PI)
+        alert("Diện tích hình tròn là: " + dientich);
+        alert("Chu vi hình tròn là: " + chuvi)
+    }
+    bai2()
+
+
+</script>
+
+</body>
+</html>

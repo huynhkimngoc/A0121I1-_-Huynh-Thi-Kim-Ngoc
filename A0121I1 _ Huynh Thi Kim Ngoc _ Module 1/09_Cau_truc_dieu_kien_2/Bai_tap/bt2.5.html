@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<form>
+    <input type="text" id="a" name="canha" />
+    <input type="text" id="b" name="canhb" />
+    <button type="button" onclick="dienTich()";>Dien tich</button>
+    <p id="result"></p>
+</form>
+<script>
+    function dienTich(){
+        let a = document.getElementById('a').value;
+        let b = document.getElementById('b').value;
+        let S = (parseInt(a)*parseInt(b))/2;
+        document.getElementById("result").innerHTML = "Diện tích tam giác:" + S;
+    }
+</script>
+
+</body>
+</html>

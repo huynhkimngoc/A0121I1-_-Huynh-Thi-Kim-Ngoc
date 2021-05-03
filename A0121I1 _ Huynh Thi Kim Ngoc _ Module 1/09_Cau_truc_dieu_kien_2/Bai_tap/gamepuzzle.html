@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Puzzle</title>
+</head>
+<body>
+<div style="display: flex;">
+        <img src="Images/Hinh1a.png" alt="1" onclick="change('a')" id="carA" width="250px" height="600px">
+        <img src="Images/Hinh2b.png" alt="2" onclick="change('b')" id="carB" width="250px" height="600px">
+        <img src="Images/Hinh3c.png" alt="3" onclick="change('c')" id="carC" width="250px" height="600px">
+        <img src="Images/Hinh1d.png" alt="1" onclick="change('d')" id="carD" width="250px" height="600px">
+        <img src="Images/Hinh2e.png" alt="2" onclick="change('e')" id="carE" width="250px" height="600px">
+<script>
+    function change(sub) {
+        let car = document.getElementById("car" + sub.toUpperCase());//toUpperCase viết hoa
+        let no = Number(car.alt);
+        no++;
+        if (no > 3) {
+            no = no - 3;
+        }
+        car.src = "Images/Hinh" + no + sub + ".png";
+        car.alt = no;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai2</title>
+</head>
+<body>
+    <script>
+        class Phanso{
+            Contrustor(tuso, mauso){
+                this.tuso = tuso;
+                this.mauso= mauso;
+            }
+            kiemTra(phanso) {
+                if (phanso.tuso * this.mauso === phanso.mauso * this.tuso) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
+        let a = new Phanso(parseFloat(prompt("Nhap vao phan so 1:")));
+        let b = new Phanso(parseFloat(prompt("Nhap vao phan so 2:")));
+        alert(a.kiemTra(phanso) + "=" + b.kiemTra(phanso) );
+    </script>
+</body>
+</html>

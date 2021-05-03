@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai4</title>
+</head>
+<body>
+<script>
+    //Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không.
+    // Nếu là ký tự số hàm trả về true, ngược lại trả về false.
+    function kiemTra(a) {
+        if(!isNaN(a)){
+            return true
+        }else {
+            return false
+        }
+    }
+    function bai4() {
+        let a = prompt("Nhập vào");
+        let check = kiemTra(a);
+        if(check){
+            alert("Đây là số")
+        }else{
+            alert("Đây là chuỗi")
+        }
+    }
+    bai4()
+</script>
+
+</body>
+</html>

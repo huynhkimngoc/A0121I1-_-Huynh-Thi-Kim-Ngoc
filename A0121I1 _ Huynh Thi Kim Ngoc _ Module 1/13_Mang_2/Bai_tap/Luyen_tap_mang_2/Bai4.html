@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai4</title>
+</head>
+<body>
+<script>
+    // Viết một chương trình nhập vào 2 chuỗi, sau đó kiểm tra xem hai chuỗi có giống nhau hay không.
+    let chuoi1 = prompt("nhap chuoi 1");
+    let chuoi2 = prompt("nhap chuoi 2");
+    let sosanh = true;
+    document.write(chuoi1 + "<br>" + chuoi2);
+    if(chuoi1.length!== chuoi2.length){
+        document.write("hai chuoi khong giong nhau");
+    }else {
+        for(let i = 0; i<chuoi1.length; i++) {
+            for (let j = 0; j < chuoi2.length; j++) {
+                if (chuoi1[i] == chuoi2[j]) {
+                    sosanh = true;
+                } else {
+                    sosanh = false;
+                }
+            }
+        }
+            if (sosanh == true) {
+                document.write("<br>"+ "hai chuoi  giong nhau");
+            } else{
+                document.write("<br>"+"hai chuoi khong giong nhau");
+            }
+    }
+
+
+
+
+
+</script>
+</body>
+</html>

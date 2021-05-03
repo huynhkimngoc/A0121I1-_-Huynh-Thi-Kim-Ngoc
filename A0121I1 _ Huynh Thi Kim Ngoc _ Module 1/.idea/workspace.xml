@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c94a0325-7e1e-4396-b32b-f5713140ce6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Thi_module_1/Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thi_module_1/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_baitap/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_baitap/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_baitap/fibonaci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt1.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt1.1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt1.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt1.2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt1.3.html" beforeDir="false" afterPath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt1.3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt1.4.html" beforeDir="false" afterPath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt1.4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt2.7.html" beforeDir="false" afterPath="$PROJECT_DIR$/09_Cau_truc_dieu_kien_2/Bai_tap/bt2.7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt1.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt2.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt3.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt4.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt5.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt6.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt7.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Cau_truc_lap_2/Bai_tap_vong_lap_1/Bt7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Mang_1/Thuc_hanh/timgiatrilonnhatcuamang.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_Mang_1/Thuc_hanh/timgiatrilonnhatcuamang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/13_Mang_2/Bai_tap/Luyen_tap_mang_2/Bai5.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="XHTML File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nYtBsCv42vPZKBiVh7fG8y86SR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14_Ham/Bai_tap/Luyen_tap_2/Bai5.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/A0121I1 _ Huynh Thi Kim Ngoc _ Module 1/14_Ham/Bai_tap/Luyen_tap_2/Bai5.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c94a0325-7e1e-4396-b32b-f5713140ce6d" name="Default Changelist" comment="" />
+      <created>1611578719621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611578719621</updated>
+      <workItem from="1611578722351" duration="426000" />
+      <workItem from="1611579651105" duration="33000" />
+      <workItem from="1611579705088" duration="1275000" />
+      <workItem from="1612218822936" duration="36000" />
+      <workItem from="1615550705117" duration="1822000" />
+      <workItem from="1615620429367" duration="13690000" />
+      <workItem from="1615683147495" duration="10468000" />
+      <workItem from="1615778497668" duration="787000" />
+      <workItem from="1615805615232" duration="11310000" />
+      <workItem from="1615860412914" duration="3036000" />
+      <workItem from="1615890710887" duration="942000" />
+      <workItem from="1615933340128" duration="1720000" />
+      <workItem from="1615979121306" duration="5117000" />
+      <workItem from="1616072732291" duration="6327000" />
+      <workItem from="1616150318728" duration="6162000" />
+      <workItem from="1616207094085" duration="1241000" />
+      <workItem from="1616288265143" duration="2608000" />
+      <workItem from="1616322087188" duration="2806000" />
+      <workItem from="1616409774427" duration="6907000" />
+      <workItem from="1616502633418" duration="738000" />
+      <workItem from="1616503691042" duration="548000" />
+      <workItem from="1616505303240" duration="819000" />
+      <workItem from="1616583068142" duration="9990000" />
+      <workItem from="1616741805648" duration="511000" />
+      <workItem from="1616764571171" duration="3176000" />
+      <workItem from="1616924533366" duration="1142000" />
+      <workItem from="1616982012133" duration="770000" />
+      <workItem from="1617014948630" duration="8651000" />
+      <workItem from="1617093311203" duration="4747000" />
+      <workItem from="1617188234304" duration="6957000" />
+      <workItem from="1617279238762" duration="3846000" />
+      <workItem from="1617360781793" duration="9317000" />
+      <workItem from="1617520527900" duration="589000" />
+      <workItem from="1617619678235" duration="9174000" />
+      <workItem from="1617721403989" duration="1913000" />
+      <workItem from="1617791948980" duration="5192000" />
+      <workItem from="1617857628664" duration="1138000" />
+      <workItem from="1617873856892" duration="764000" />
+      <workItem from="1617887442533" duration="2609000" />
+      <workItem from="1617963306483" duration="10202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616413169716">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1616413169716" />
+    <state x="430" y="220" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1617363205386">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="220" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1617363205386" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1616413167791">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616413167791" />
+    <state width="1345" height="87" key="GridCell.Tab.0.bottom" timestamp="1616422743504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616422743504" />
+    <state width="1345" height="87" key="GridCell.Tab.0.center" timestamp="1616422743503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616422743503" />
+    <state width="1345" height="87" key="GridCell.Tab.0.left" timestamp="1616422743503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616422743503" />
+    <state width="1345" height="87" key="GridCell.Tab.0.right" timestamp="1616422743504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616422743504" />
+    <state width="1345" height="87" key="GridCell.Tab.1.bottom" timestamp="1616422743505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616422743505" />
+    <state width="1345" height="87" key="GridCell.Tab.1.center" timestamp="1616422743505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616422743505" />
+    <state width="1345" height="87" key="GridCell.Tab.1.left" timestamp="1616422743504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616422743504" />
+    <state width="1345" height="87" key="GridCell.Tab.1.right" timestamp="1616422743505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616422743505" />
+    <state width="1345" height="87" key="GridCell.Tab.2.bottom" timestamp="1616422743506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616422743506" />
+    <state width="1345" height="87" key="GridCell.Tab.2.center" timestamp="1616422743505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1616422743505" />
+    <state width="1345" height="87" key="GridCell.Tab.2.left" timestamp="1616422743505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1616422743505" />
+    <state width="1345" height="87" key="GridCell.Tab.2.right" timestamp="1616422743505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1616422743505" />
+    <state width="1345" height="87" key="GridCell.Tab.3.bottom" timestamp="1616422743506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616422743506" />
+    <state width="1345" height="87" key="GridCell.Tab.3.center" timestamp="1616422743506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1616422743506" />
+    <state width="1345" height="87" key="GridCell.Tab.3.left" timestamp="1616422743506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1616422743506" />
+    <state width="1345" height="87" key="GridCell.Tab.3.right" timestamp="1616422743506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="87" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1616422743506" />
+    <state x="380" y="0" width="736" height="728" key="find.popup" timestamp="1617973804666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" width="736" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1617973804666" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1617022994084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1617022994084" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Case_study/employee.js</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/12_Mang_1/Thuc_hanh/timgiatrilonnhatcuamang.html</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai1</title>
+</head>
+<body>
+<script>
+    //Viết hàm tính bình phương của một số bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.
+    function binhphuong(so) {
+        let ketqua = so * so
+        return ketqua
+    }
+    function bai1() {
+        let so = Number(prompt("Nhập một số tính bình phương"))
+        let ketqua = binhphuong(so)
+        document.write("Bình phương của "+so+" = "+ketqua)
+    }
+    bai1()
+
+</script>
+
+</body>
+</html>

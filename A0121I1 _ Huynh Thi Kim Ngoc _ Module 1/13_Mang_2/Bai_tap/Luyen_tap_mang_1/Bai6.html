@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai6</title>
+</head>
+<body>
+<script>
+    //Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V
+    //Chương trình tìm xem V có nằm trong mảng số nguyên không?
+    // Nếu V thuộc mảng số nguyên thì in ra "V is in the array" còn lại in ra "V is not in the array".
+    let mangso =[];
+    temp = true;
+    let V = prompt("Nhập vào một số nguyên:");
+    for(let i=0; i<3;i++) {
+        mangso[i] = prompt("Nhap vao mang so:");
+        if (mangso [i] == "V") {
+            temp = false;
+        }
+    }
+        document.write("Mang =  ["+mangso+"]<br>");
+        if(temp==false){
+            document.write("V is in the array");
+        }
+        else {
+            document.write("V is not in the array");
+        }
+</script>
+
+</body>
+</html>
